@@ -2,11 +2,11 @@
 
     <div id="fullScreenDiv">
         
-        <div id="videoDiv">           
-            <!-- <video id="video" preload autoplay muted playsinline loop>
+        <!-- <div id="videoDiv">           
+            <video id="video" preload autoplay muted playsinline loop>
             <source src="@/assets/video.mp4" type="video/mp4" />
-            </video>  -->
-        </div>
+            </video>
+        </div> -->
         <div class="messageBox"> 
             <div class="name-heading">
                 <h1>Rizwan <span> Mir </span></h1>
@@ -34,22 +34,22 @@ export default {
 </script>
 
 <style scoped lang="less">
- /* Default to hide the video on all devices */
-#video{display:none}
-
-/* Default to display the image on all devices */
-#videosubstitute{display:block;width:auto;height:100%;}
 
 #fullScreenDiv{
     width:100%;
-    min-height: 100%; 
+   // min-height: 100%; 
    /* Set the height to match that of the viewport. */
-    height: 100vh;
+   // height: 100vh;
     width: auto;
     padding:0!important;
     margin: 0!important;
     background-color: gray;
     position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 #video{    
     width: 300vw; 
@@ -66,10 +66,6 @@ export default {
     height: 150%;
     top: -100%;
   }
-  #videosubstitute{
-    display:block;
-    width: 100%;
-    height: auto;}
 }
 
 @media (max-aspect-ratio: 16/9) {
@@ -77,7 +73,6 @@ export default {
     width: 150%;
     left: -100%;
   }
-  #videosubstitute{display:block;width:auto;height:100%;}
 }
 /*if there is 992  pixels or more, then display the video but hide the image*/
 @media only screen and (min-width : 992px) {

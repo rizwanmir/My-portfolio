@@ -31,9 +31,11 @@ export default {
   font-family: sans-serif;
   background: #f5f5f5;
   overflow-x: hidden;
+  
+  
 }
 main {
-  height: calc(100vh - 16vh);
+ height: 100%;
    /*
   padding: 0 6vw 0 6vw;
   display: flex;
