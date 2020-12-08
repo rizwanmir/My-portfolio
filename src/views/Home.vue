@@ -2,11 +2,11 @@
 
     <div id="fullScreenDiv">
         
-        <!-- <div id="videoDiv">           
+        <div id="videoDiv">           
             <video id="video" preload autoplay muted playsinline loop>
             <source src="@/assets/video.mp4" type="video/mp4" />
             </video>
-        </div> -->
+        </div>
         <div class="messageBox"> 
             <div class="name-heading">
                 <h1>Rizwan <span> Mir </span></h1>

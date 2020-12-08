@@ -8,9 +8,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import App from './App.vue'
 import router from './router/index.js'
+import { faAngleDoubleRight} from '@fortawesome/free-solid-svg-icons'
 
 Vue.use(BootstrapVue)
-library.add(faGithub, faLinkedin)
+library.add(faGithub, faLinkedin, faAngleDoubleRight)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
