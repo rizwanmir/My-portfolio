@@ -158,6 +158,7 @@ export default {
   }
   .card-img {
     padding: 40px;
+    border: 2px solid black;
   }
 
   .portfolio_btn_container {

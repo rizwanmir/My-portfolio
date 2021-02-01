@@ -3,15 +3,15 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import App from './App.vue'
 import router from './router/index.js'
-import { faAngleDoubleRight} from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleRight, faMobile, faEnvelopeSquare} from '@fortawesome/free-solid-svg-icons'
 
 Vue.use(BootstrapVue)
-library.add(faGithub, faLinkedin, faAngleDoubleRight)
+library.add(faGithub, faLinkedin, faAngleDoubleRight, faMobile, faEnvelopeSquare)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
